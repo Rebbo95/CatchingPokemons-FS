@@ -1,3 +1,5 @@
+
+
 /* BASE */
 :root {
     --background-grey: #424242;
@@ -12,6 +14,19 @@
     --heading-yellow: #fed702;
 }
 
+.page-header {
+    width: 100%;
+    background-image: url('./resources/header-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page-header__title {
+    padding: 8rem 0;
+    font-size: 4rem;
+    color: var(--heading-yellow)
+;}
 * {
     box-sizing: border-box;
     padding: 0;
@@ -138,5 +153,4 @@ h3 {
 .autocomplete-list li:hover {
     background-color: #f4f4f4;
 }
-
 
