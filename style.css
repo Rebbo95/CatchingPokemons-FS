@@ -46,6 +46,24 @@ h3 {
     margin: 0 auto;
 }
 
+/* Pagination Container */
+.pagination-container {
+    margin: auto;
+    display: flex;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-indicator {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
+.pagination-btn {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
 
 @media screen and (max-width: 800px) {
     .main-section__wrapper {
